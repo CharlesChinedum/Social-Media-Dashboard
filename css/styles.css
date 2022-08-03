@@ -1,0 +1,167 @@
+/* TAG SELECTORS */
+body {
+    margin: 0;
+}
+
+/* CLASS SELECTORS */
+.container {
+    margin: 0;
+    /* position: relative; */
+}
+
+
+.top-bg {
+    background-color: hsl(225, 100%, 98%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* height: 30%; */
+    margin: 0;
+    padding: 6% 50%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.top-desc {
+    padding: 1% 10% 0;
+}
+
+.social {
+    color: hsl(230, 17%, 14%);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* TOGGLER */
+.toggler-con {
+    background-color: hsl(228, 12%, 44%);
+    width:fit-content;
+}
+.toggler {
+    border-radius: 50%;
+    padding: 3%;
+}
+
+.total-followers {
+    color: hsl(228, 12%, 44%);
+    font-size: 1rem;
+}
+
+.social-cards {
+    display: flex;
+    padding: 0 10%;
+}
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percentage-rise {
+     color: hsl(163, 72%, 41%);
+     /* font-size: 0.8rem; */
+}
+.percentage-down {
+    color: hsl(356, 69%, 56%);
+}
+
+/* FACEBOOK */
+.card {
+    background-color: hsl(227, 47%, 96%);
+    border-top: 3px hsl(208, 92%, 53%) solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    padding: 2rem 2rem;
+    width: 20%;
+}
+.username {
+    padding: 0 0 0 0.5rem;
+}
+.social-followers {
+    color: hsl(230, 17%, 14%);
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+.followers {
+    color: hsl(228, 12%, 44%);
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* TWITTER */
+
+.twitter-card {
+    margin: 0 30px;
+    border-top: 3px hsl(203, 89%, 53%) solid;
+}
+/* INSTAGRAM */
+.instagram-card {
+    border-top: 3px linear-gradient(to right, hsl(37, 97%, 70%) 0% , hsl(329, 70%, 58%) 50%) solid;
+    margin: 0 30px 0 0;
+}
+
+/* OVERVIEW */
+.overview-con {
+    margin: 2% 0 1%;
+    padding: 0 10%;
+}
+.overview {
+    color: hsl(228, 12%, 44%);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0 10%;
+    column-gap: 15px;
+    row-gap: 22px;
+}
+.overview-card {
+    background-color: hsl(227, 47%, 96%);
+    padding: 1rem 2rem;
+    width: 74%;
+    position: relative;
+}
+.overview-top {
+    display: flex;
+}
+.overview-icon-con {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin: 0;
+}
+.overview-reactions {
+    color: hsl(230, 17%, 14%);
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.overview-bottom {
+    display: flex;
+}
+.overview-percentage-con {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+.overview-percentage-rise {
+    color: hsl(163, 72%, 41%);
+}
+.overview-percentage-down {
+    color:hsl(356, 69%, 56%);
+}
