@@ -121,14 +121,15 @@ body {
 }
 
 .grid-container {
+    column-gap: 15px;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    margin: 0 0 5rem;
     padding: 0 10%;
-    column-gap: 15px;
     row-gap: 22px;
 }
 .overview-card {
-    background-color: hsl(227, 47%, 96%);
+    background-color: hwb(228 94% 2%);
     padding: 1rem 2rem;
     width: 74%;
     position: relative;
@@ -143,6 +144,10 @@ body {
     width: 50%;
     margin: 0;
 }
+.overview-icon {
+    text-align: right;
+}
+
 .overview-reactions {
     color: hsl(230, 17%, 14%);
     font-size: 2.2rem;
@@ -164,4 +169,34 @@ body {
 }
 .overview-percentage-down {
     color:hsl(356, 69%, 56%);
+}
+
+/* MOBILE VIEW (RESONSIVENESS) */
+@media screen and (max-width: 640px) {
+    .social-cards {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    .card {
+        padding: 2rem 2rem;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .twitter-card {
+        margin: 7% auto;
+    }
+    .instagram-card {
+        margin: 0 auto 7%;
+    }
+
+    /* OVERVIEW */
+    .grid-container {
+        grid-template-columns: auto;
+        padding: 0 8%;
+        row-gap: 15px;
+    }
+    .overview-card {
+        margin: 0 auto;
+    }
 }
